@@ -1167,7 +1167,7 @@
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
@@ -1179,7 +1179,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "/IN_B2")
@@ -1190,7 +1190,7 @@
 		(pad "3" thru_hole oval
 			(at 0 -5.08 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "/IN_B1")
@@ -1213,7 +1213,7 @@
 		(pad "5" thru_hole oval
 			(at 0 -10.16 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
@@ -1226,7 +1226,7 @@
 		(pad "6" thru_hole oval
 			(at 0 -12.7 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
@@ -1239,7 +1239,7 @@
 		(pad "7" thru_hole oval
 			(at 0 -15.24 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 7 "GND")
@@ -1501,7 +1501,7 @@
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
@@ -1513,7 +1513,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "/OUT_B1")
@@ -1524,7 +1524,7 @@
 		(pad "3" thru_hole oval
 			(at 0 -5.08 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/OUT_B2")
@@ -1535,7 +1535,7 @@
 		(pad "4" thru_hole oval
 			(at 0 -7.62 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "/VM")
@@ -1546,7 +1546,7 @@
 		(pad "5" thru_hole oval
 			(at 0 -10.16 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "/OUT_A1")
@@ -1557,7 +1557,7 @@
 		(pad "6" thru_hole oval
 			(at 0 -12.7 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "/OUT_A2")
@@ -1568,7 +1568,7 @@
 		(pad "7" thru_hole oval
 			(at 0 -15.24 180)
 			(size 2.2 2)
-			(drill 0.762)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "/VM")
