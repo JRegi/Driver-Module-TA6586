@@ -370,6 +370,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MixLib:TA6586"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -679,10 +814,28 @@
 		(uuid "1710c6b8-1e30-4a67-8388-6e4ddd00fbaa")
 	)
 	(junction
+		(at 62.23 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32a0a671-85a2-43eb-8990-ae276a60f13e")
+	)
+	(junction
 		(at 62.23 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "380366ff-ce92-465e-ac00-d3c6ff662b65")
+	)
+	(junction
+		(at 63.5 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b062c46-01f2-41a7-b282-9b74c6543014")
+	)
+	(junction
+		(at 62.23 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5f64027-0891-473f-bc8b-96b138dc0336")
 	)
 	(junction
 		(at 63.5 48.26)
@@ -695,6 +848,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d48504fd-eabd-402b-b51e-58de8ab06166")
+	)
+	(junction
+		(at 63.5 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb671b2-64d2-4085-a6a8-b123c9b4dc69")
 	)
 	(no_connect
 		(at 121.92 58.42)
@@ -1357,6 +1516,75 @@
 		(uuid "e6a627aa-c70a-490a-9919-a5c68adb2d6e")
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 62.23 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1373fe89-c715-43d1-9b7c-b299cde86ccf")
+		(property "Reference" "C1"
+			(at 64.516 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 64.516 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d86713-e9a3-40cd-aa66-a84bfde11f79")
+		)
+		(pin "2"
+			(uuid "895e727f-034e-4adf-83f3-be80a5d86061")
+		)
+		(instances
+			(project "PCBWay-Module_TA6586"
+				(path "/2cdde361-a55b-48b5-9e7b-a2f6f5949c45"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 92.71 0)
 		(unit 1)
@@ -1717,6 +1945,75 @@
 			(project "PCBWay-Module_TA6586"
 				(path "/2cdde361-a55b-48b5-9e7b-a2f6f5949c45"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c46008a2-202c-48ce-b628-16af7c17b8b6")
+		(property "Reference" "C2"
+			(at 65.786 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 65.786 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "003ecf90-0b88-4901-8b39-53830f804704")
+		)
+		(pin "2"
+			(uuid "b6e10cfa-3ea9-44f4-8754-dac33584d372")
+		)
+		(instances
+			(project "PCBWay-Module_TA6586"
+				(path "/2cdde361-a55b-48b5-9e7b-a2f6f5949c45"
+					(reference "C2")
 					(unit 1)
 				)
 			)
