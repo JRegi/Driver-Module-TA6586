@@ -1,7 +1,7 @@
 {
     "layout": {
         "hspace": "3mm",
-        "vspace": "3mm",
+        "vspace": "4mm",
         "rows": "3",
         "cols": "2"
     },
@@ -16,9 +16,10 @@
         "offset": "-0.2mm"
     },
     "framing": {
-        "type": "railstb"
-    },
-    "tooling": {
-        "type": "4hole"
+        "type": "frame",
+        "hspace": "3mm",
+        "vspace": "3mm",
+        "width": "4mm",
+        "cuts": "h"
     }
 }
