@@ -79,7 +79,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
@@ -116,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber/")
+			(outputdirectory "gerber_TA65/")
 		)
 	)
 	(net 0 "")
@@ -140,6 +139,7 @@
 		(property "Reference" "U1"
 			(at 0 -6.14 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "97ad48cd-7080-486f-99cc-c97d0b2b1c4a")
 			(effects
 				(font
@@ -538,6 +538,7 @@
 		(property "Reference" "U2"
 			(at 0 -6.14 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0f15dee4-6301-4580-b1b0-591a4d1f23f9")
 			(effects
 				(font
@@ -2024,7 +2025,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 150.157639 82.259594) (xy 150.157639 84.759594) (xy 151.620961 83.509594)
+			(xy 147.336678 81.925) (xy 147.336678 84.425) (xy 148.8 83.175)
 		)
 		(stroke
 			(width 0.2)

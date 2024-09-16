@@ -117,8 +117,8 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.16,
-        "min_connection": 0.16,
-        "min_copper_edge_clearance": 0.2,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -222,8 +222,8 @@
           "drill": 0.254
         },
         {
-          "diameter": 0.61,
-          "drill": 0.3
+          "diameter": 0.65,
+          "drill": 0.35
         },
         {
           "diameter": 0.8,
@@ -462,26 +462,60 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCBWay-Module_TA6586.kicad_pro",
+    "filename": "PCBWay-Module_TB67H450FNG.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1524,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3048,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -497,7 +531,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber_TA65/",
+      "plot": "gerber_TB67/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -607,7 +641,7 @@
   },
   "sheets": [
     [
-      "2cdde361-a55b-48b5-9e7b-a2f6f5949c45",
+      "f2a6858f-f9d0-41c3-b1f2-5194c6bbfd5f",
       "Root"
     ]
   ],
